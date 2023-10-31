@@ -9,42 +9,19 @@ public class ContaBanco {
     private String nomeCliente;
     private double saldoCliente;
 
-    public ContaBanco(int numeroConta, String agencia, String nomeCliente, double saldoCliente) {
-        this.numeroConta = numeroConta;
-        this.agencia = agencia;
-        this.nomeCliente = nomeCliente;
-        this.saldoCliente = saldoCliente;
-    }
-
     public ContaBanco() {
-    }
-
-    public int getNumeroConta() {
-        return numeroConta;
     }
 
     public void setNumeroConta(int numeroConta) {
         this.numeroConta = numeroConta;
     }
 
-    public String getAgencia() {
-        return agencia;
-    }
-
     public void setAgencia(String agencia) {
         this.agencia = agencia;
     }
 
-    public String getNomeCliente() {
-        return nomeCliente;
-    }
-
     public void setNomeCliente(String nomeCliente) {
         this.nomeCliente = nomeCliente;
-    }
-
-    public double getSaldoCliente() {
-        return saldoCliente;
     }
 
     public void setSaldoCliente(double saldoCliente) {
